@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eceef1;
+}
+
+a {
+    font-size: 13px;
+}
+
+p {
+    font-size: 14px;
+}
+
+section.menu-right-top {
+    float: right;
+    margin: 20px 30px 20px 0;
+}
+
+.pull-to-left {
+    float: left;
+    padding: 5px;
+}
+
+.pull-to-right {
+    float: right;
+    padding: 5px;
+}
+
+.give-me-space {
+    clear: both;
+}
+
+button.btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: #0077C5;
+    color: #fff;
+}
+
+section.logo-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.main-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.other-logos img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+fieldset.collect-data {
+    width: 30%;
+    margin: auto;
+    background: #fff;
+}
+
+.information {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+form.my-data {
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+button.btn-create {
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.final-form-data p {
+    margin: 30px 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer.footer-google {
+    text-align: center;
+    padding: 10px;
+    background: #ECEEF1;
+}
+
+.invisible {
+    margin: 10px;
+}
+
+.bottom-section {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 6px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: #000;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: underline;
+}
+
