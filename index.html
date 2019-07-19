@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>HTML FORM</title>
+	<title>HTML FORM - Sign Up</title>
 </head>
 <body>
 	<div class="wrapper">
@@ -29,9 +29,15 @@
 					<img src="img/logo-intuit.png" alt="intuit logo">
 				</div>
 				<div class="other-logos">
-					<img src="img/logo-mint.png" alt="mint logo"><span class="logo-name"> mint</span>
-					<img src="img/logo-quickbooks.png" alt="quickbooks logo"><span class="logo-name"> quickbooks</span>
-					<img src="img/logo-turbotax.jpg" alt="turbotax logo"><span class="logo-name"> turbotax</span>
+					<div>
+						<img src="img/logo-mint.png" alt="mint logo"><p class="logo-name"> mint</p>
+					</div>
+					<div>
+						<img src="img/logo-quickbooks.png" alt="quickbooks logo"><p class="logo-name"> quickbooks</p>
+					</div>
+					<div>
+						<img src="img/logo-turbotax.jpg" alt="turbotax logo"><p class="logo-name"> turbotax</p>
+					</div>
 				</div>
 			</section>
 
@@ -42,16 +48,16 @@
 					<a href="#">Learn more</a>
 				</div>
 				<form class="my-data" action="">
-					<div>
+					<div class="input-field">
 						<p><label for="email">Email address </label></p>
 						<p><input type="email" name="email" id="email" /></p>
 					</div>
-					<div>
+					<div class="input-field">
 						<p><label for="phone-number">Phone(recommended) </label></p>
 						<p><input type="number" name="phone-number" id="phone-number"></p>
 					</div>
 					<p class="messaging">Standard call, messaging or data rates may apply</p>
-					<div>
+					<div class="input-field">
 						<p><label for="user-password">Password</label></p>
 						<p><input type="password" name="password" id="user-password"></p>
 					</div>
@@ -60,7 +66,7 @@
 				</form>
 
 				<div class="final-form-data">
-					<p><i>By clicking Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our<a href="#">Privacy Statement.</a></i></p>
+					<p class="privacy-statement"><i>By clicking Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our<a href="#"> Privacy Statement.</a></i></p>
 				</div>
 
 				<!-- form footer -->

@@ -12,6 +12,7 @@ body {
 
 a {
     font-size: 13px;
+    color: #0077C5;
 }
 
 p {
@@ -56,8 +57,8 @@ section.logo-section {
 }
 
 .other-logos img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
 }
 
@@ -66,6 +67,7 @@ fieldset.collect-data {
     width: 30%;
     margin: auto;
     background: #fff;
+    border: 1px solid #c7c7c7;
 }
 
 .information {
@@ -80,12 +82,21 @@ form.my-data {
 }
 
 input {
-    width: 100%;
+    width: 93%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 button.btn-create {
-    padding: 10px 15px;
-    width: 100%;
+padding: 15px 15px;
+width: 100%;
+color: #fff;
+background: #0077c5;
+border: none;
+border-radius: 3px;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .final-form-data p {
@@ -102,6 +113,7 @@ footer.footer-google {
 
 .invisible {
     margin: 10px;
+    font-size: 11px;
 }
 
 .bottom-section {
@@ -134,3 +146,50 @@ a:focus {
     text-decoration: underline;
 }
 
+.information h4 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 5px 0 20px 0;
+}
+
+.information p {
+    font-size: 13px;
+}
+
+.input-field p {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.messaging {
+    font-size: 10px;
+    margin-top: -27px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    margin-bottom: 30px;
+}
+
+p.privacy-statement {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.bottom-section p {
+    font-size: 13px;
+}
+
+.other-logos {
+    display: inline;
+}
+
+.other-logos div {
+    display: inline-flex;
+}
+
+p.logo-name {
+    text-align: center;
+    margin: 8px 8px 0 5px;
+    font-size: 17px;
+}
